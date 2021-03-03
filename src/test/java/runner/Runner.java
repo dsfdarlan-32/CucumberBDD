@@ -6,7 +6,7 @@ import cucumber.api.SnippetType;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags ={"@testPT,@testPT2"},
+@CucumberOptions(tags ={"@testPT2"},
                  features = "src/test/resources/features",
                  glue ="steps",
                  plugin = "pretty", 
